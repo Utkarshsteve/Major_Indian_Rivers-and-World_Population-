@@ -7,3 +7,11 @@ The library has a number of built-in tilesets from OpenStreetMap, MapQuest Open,
 In computer programming, pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series. It is free software released under the three-clause BSD license.The name is derived from the term "panel data", an econometrics term for data sets that include observations over multiple time periods for the same individuals.
 
 CSV (Comma Separated Values) is a simple file format used to store tabular data, such as a spreadsheet or database. A CSV file stores tabular data (numbers and text) in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. The use of the comma as a field separator is the source of the name for this file format.For working CSV files in python, there is an inbuilt module called csv.
+
+The river data set is loaded and the attributes of te river i.e; latitude,longitude,name and distance is extracted and stored in their respective variable.
+
+Then the co-ordinates of India in decimal is depicted using folium.
+
+The folium feature group is uesd to represent the River Map and World Population Map.
+
+The resultant map is saved as Map1.html
